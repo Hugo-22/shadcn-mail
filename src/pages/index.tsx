@@ -7,7 +7,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 export default function Home() {
 
 	return (
-		<div className="flex justify-center items-center h-screen">
+		<div className="flex justify-center items-center h-screen py-10">
 			<div className="relative max-w-[1200px] overflow-hidden h-full mx-auto border max-h-[800px]">
 				<TooltipProvider delayDuration={0}>
 					<div className="flex h-full">
