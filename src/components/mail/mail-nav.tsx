@@ -67,6 +67,7 @@ export function MailNav(props: MenuProps) {
 									<Link
 										href="#"
 										className={cn(
+											// @ts-ignore
 											buttonVariants({variant: item.variant, size: "icon"}),
 											"h-9 w-9",
 											item.variant === "default" &&
@@ -91,6 +92,7 @@ export function MailNav(props: MenuProps) {
 								key={index}
 								href="#"
 								className={cn(
+									// @ts-ignore
 									buttonVariants({variant: item.variant, size: "sm"}),
 									item.variant === "default" &&
 									"dark:bg-muted dark:text-white dark:hover:bg-muted dark:hover:text-white",
